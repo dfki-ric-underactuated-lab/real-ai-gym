@@ -70,9 +70,11 @@ $endif$
   <a href="$github$"><i class="fa fa-github" style="font-size:36px; padding:1em;"></i></a>
   <a href="$github$"><i class="fa fa-file-pdf-o" style="font-size:36px; padding:1em;"></i></a>
 </div>
+$if(youtube)$
 <div class="video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/$youtube$" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+$endif$
 $body$
 $for(include-after)$
 $include-after$

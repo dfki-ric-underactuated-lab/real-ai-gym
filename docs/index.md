@@ -1,7 +1,7 @@
 ---
 title: "RealAIGym: Education and Research Platform for Studying Athletic Intelligence"
-author: Felix Wiebe, Shubham Vyas, Lasse Maywald, Shivesh Kumar
-youtube: JVvwMGYiH3A
+author: Felix Wiebe, Shubham Vyas, Lasse Maywald, Shivesh Kumar, Frank Kirchner
+#youtube: JVvwMGYiH3A
 github: https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum
 pdf: https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum
 ---
@@ -30,16 +30,3 @@ An acromonk consists of two links which are joined together by a single motor. T
 ### Boomstick Hopper
 The boomstick hopper is similar to the hopping leg but instead of the upright pole the hopper is attached to a boomstick which allows it to hop along a circle.
 
-## Formatting Examples
-<mark>Marked text</mark>. **Fat Text** *Cursive text* Footnote [^1]
-
-$$1+1+2+\pi$$
-
-
-Column A | Column B | Column C
----------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
-
-[^1]: test 123
