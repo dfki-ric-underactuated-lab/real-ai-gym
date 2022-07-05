@@ -56,6 +56,11 @@ $if(abstract)$
 $abstract$
 </div>
 $endif$
+$if(logo)$
+<div class="logo">
+  <img  src="$logo$" alt="jaguar">
+</div>
+$endif$
 </header>
 $endif$
 $if(toc)$
@@ -67,8 +72,12 @@ $table-of-contents$
 </nav>
 $endif$
 <div class="header_links">
+  $if(github)$
   <a href="$github$"><i class="fa fa-github" style="font-size:36px; padding:1em;"></i></a>
-  <a href="$github$"><i class="fa fa-file-pdf-o" style="font-size:36px; padding:1em;"></i></a>
+  $endif$
+  $if(pdf)$
+  <a href="$pdf$"><i class="fa fa-file-pdf-o" style="font-size:36px; padding:1em;"></i></a>
+  $endif$
 </div>
 $if(youtube)$
 <div class="video-wrapper">
@@ -80,8 +89,9 @@ $for(include-after)$
 $include-after$
 $endfor$
 <footer>
-  <img src="static/ulab.gif" style="width:250px">
-  <img src="static/logo.svg" style="width:250px">
+  <img src="static/gym_logo.png" style="width:125px;  padding-right:20px; padding-left:20px;">
+  <img src="static/ulab.gif" style="width:250px;      padding-right:20px; padding-left:20px;">
+  <img src="static/logo.svg" style="width:250px;      padding-right:20px; padding-left:20px;">
 </footer>
 </body>
 </html>

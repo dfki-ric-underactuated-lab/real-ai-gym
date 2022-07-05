@@ -336,3 +336,11 @@
     font-size: 1.2em;
     text-align: center;
   }
+
+  .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 25%;
+}

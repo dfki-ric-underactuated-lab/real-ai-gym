@@ -1,9 +1,10 @@
 ---
 title: "RealAIGym: Education and Research Platform for Studying Athletic Intelligence"
 author: Felix Wiebe, Shubham Vyas, Lasse Maywald, Shivesh Kumar, Frank Kirchner
-#youtube: JVvwMGYiH3A
-github: https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum
-pdf: https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum
+youtube: 4FN_WLqb6Ic
+#github: https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum
+pdf: https://realworldrobots.github.io/assets/files/Real_AI_Gym.pdf
+#logo: static/gym_logo.png
 ---
 
 ## Motivation
