@@ -1,1 +1,0 @@
-pandoc --standalone index.md -o index.html --mathjax --css style.css --template template.html
