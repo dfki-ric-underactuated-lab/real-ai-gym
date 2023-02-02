@@ -25,7 +25,7 @@ The intention of the RealAIGym is to study dynamic control of underactuated syst
 
 ![The gym equipment currently available in the RealAIGym include (from left to right) simple and double pendulum, hopping leg, acromonk and, boomstick hopper](static/figures/gym.png)
 
-### Simple Pendulum [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum)
+### Simple Pendulum [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum) [<i class="fa fa-book" style="font-size:24px"></i>](https://dfki-ric-underactuated-lab.github.io/torque_limited_simple_pendulum/)
 A torque-limited simple pendulum is arguably the simplest underactuated robotic system one could imagine. With only one motor, a link and a weight it can be reproduced easily. A natural control problem for the pendulum is to swing up from the hanging position to the upright position and stabilize the pendulum there with a torque limitation. Setting a torque limitation on the motor output makes it impossible to directly swing up and instead the pendulum needs to built up energy by first swinging back and forth.
 
 ![The Simple Pendulum.](static/gifs/pendulum.gif)
