@@ -28,14 +28,21 @@ The intention of the RealAIGym is to study dynamic control of underactuated syst
 ### Simple Pendulum [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/dfki-ric-underactuated-lab/torque_limited_simple_pendulum)
 A torque-limited simple pendulum is arguably the simplest underactuated robotic system one could imagine. With only one motor, a link and a weight it can be reproduced easily. A natural control problem for the pendulum is to swing up from the hanging position to the upright position and stabilize the pendulum there with a torque limitation. Setting a torque limitation on the motor output makes it impossible to directly swing up and instead the pendulum needs to built up energy by first swinging back and forth.
 
-### Double Pendulum
+![The Simple Pendulum.](static/gifs/pendulum.gif)
+
+### Double Pendulum [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/dfki-ric-underactuated-lab/double_pendulum) [<i class="fa fa-book" style="font-size:24px"></i>](https://dfki-ric-underactuated-lab.github.io/double_pendulum/index.html) 
+
 A double pendulum is a simple 2-DoF system with chaotic dynamics. The system consists of two links and two motors at the joints. By disabling one of the motors and using it as a passive joint, the system can be operated either as an acrobot or as a pendubot system. Similar to the simple pendulum case, a natural control problem is to swing up the double pendulum from the hanging position to the upright position and stabilize it there.
+
+![The Double Pendulum.](static/gifs/acrobot.gif)
 
 ### Hopping Leg
 The hopping leg is a 3-DoF system with two motors and one passive vertical DoF. The leg is able to jump by pushing itself off from the ground. Interesting control problems are maintaining a constant jumping height and performing a backflip during the air phase.
 
-### Acromonk 
+### Acromonk [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/dfki-ric-underactuated-lab/acromonk)
 An acromonk consists of two links which are joined together by a single motor. Two hooks at the external ends of both links facilitate the acromonk to hold onto horizontal bars. As a free and wireless system the acromonk is capable of performing brachiation behavior similar to primates. The system is similar to an acrobot system from dynamics perspective but provides an additional control challenge due to the brachiation task.
+
+![Acromonk.](static/gifs/acromonk.gif)
 
 ### Boomstick Hopper
 The boomstick hopper is similar to the hopping leg but instead of the upright pole the hopper is attached to a boomstick which allows it to hop along a circle.
