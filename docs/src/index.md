@@ -40,6 +40,7 @@ A double pendulum is a simple 2-DoF system with chaotic dynamics. The system con
 The hopping leg is a 3-DoF system with two motors and one passive vertical DoF. The leg is able to jump by pushing itself off from the ground. Interesting control problems are maintaining a constant jumping height and performing a backflip during the air phase.
 
 ### Acromonk [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/dfki-ric-underactuated-lab/acromonk)
+
 An acromonk consists of two links which are joined together by a single motor. Two hooks at the external ends of both links facilitate the acromonk to hold onto horizontal bars. As a free and wireless system the acromonk is capable of performing brachiation behavior similar to primates. The system is similar to an acrobot system from dynamics perspective but provides an additional control challenge due to the brachiation task.
 
 ![Acromonk.](static/gifs/acromonk.gif)
@@ -47,3 +48,17 @@ An acromonk consists of two links which are joined together by a single motor. T
 ### Boomstick Hopper
 The boomstick hopper is similar to the hopping leg but instead of the upright pole the hopper is attached to a boomstick which allows it to hop along a circle.
 
+# Citation
+Felix Wiebe, Shubham Vyas, Lasse Jenning Maywald, Shivesh Kumar, and Frank Kirchner. RealAIGym: Education and Research Platform for Studying Athletic
+Intelligence. In Proceedings of Robotics Science and Systems Workshop Mind the Gap: Opportunities and Challenges in the Transition Between Research and Industry, New York, July 2022.
+
+```
+@INPROCEEDINGS{2022_rss_realaigym, 
+    AUTHOR    = {Felix Wiebe AND Shubham Vyas AND Lasse Jenning Maywald AND Shivesh Kumar AND Frank Kirchner}, 
+    TITLE     = {{RealAIGym: Education and Research Platform for Studying Athletic Intelligence}}, 
+    BOOKTITLE = {Proceedings of Robotics Science and Systems Workshop Mind the Gap: Opportunities and Challenges in the Transition Between Research and Industry}, 
+    YEAR      = {2022}, 
+    ADDRESS   = {New York}, 
+    MONTH     = {July}, 
+} 
+```
